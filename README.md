@@ -19,4 +19,7 @@ I am focused in **data analytics and automation**: taking raw business data, mak
 | Automation | Make.com, webhooks, REST APIs |
 | Web apps | FastAPI, React, TypeScript, Tailwind CSS |
 | Quality and delivery | pytest, Docker, GitHub Actions, Render |
+| AI-Assisted development - Claude |
+
+ 
 
