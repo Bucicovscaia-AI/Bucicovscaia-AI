@@ -11,8 +11,8 @@
   </defs>
   <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
   <!-- trend line in the background -->
-  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 120 L1100 132 L1160 80 L1160 250 L620 250 Z" fill="url(#area)"/>
-  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 120 L1100 132 L1160 80" fill="none" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 150 L1100 160 L1160 125 L1160 250 L620 250 Z" fill="url(#area)"/>
+  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 150 L1100 160 L1160 125" fill="none" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
   <!-- pipeline: data, clean, analyse, automate -->
   <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">
     <line x1="680" y1="70" x2="1100" y2="70" stroke="#93c5fd" stroke-width="2" stroke-dasharray="6 6"/>
