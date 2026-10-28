@@ -2,7 +2,7 @@
 
 ## Hi, I'm Cristina 👋
 
-I work in **data analytics and automation**: taking raw business data, making it clean and trustworthy, turning it into clear insights and reports, and automating how those results reach the people who need them.
+I am focused in **data analytics and automation**: taking raw business data, making it clean and trustworthy, turning it into clear insights and reports, and automating how those results reach the people who need them.
 
 ## What I do
 
@@ -20,6 +20,3 @@ I work in **data analytics and automation**: taking raw business data, making it
 | Web apps | FastAPI, React, TypeScript, Tailwind CSS |
 | Quality and delivery | pytest, Docker, GitHub Actions, Render |
 
-## Projects
-
-**[FlowForge Analytics](https://github.com/Bucicovscaia-AI/flowforge-analytics)**: a web app that imports CSV business data, scores and cleans its quality, analyses it and produces reports, with automated delivery through Make.com. [Live demo](https://flowforge-analytics.onrender.com)
