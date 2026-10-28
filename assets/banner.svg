@@ -1,27 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Cristina Bucicovscaia · Data and web applications">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Cristina Bucicovscaia · Data Analytics and Automation">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0f172a"/>
       <stop offset="1" stop-color="#1e3a8a"/>
     </linearGradient>
     <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
-  <g stroke="#ffffff" stroke-opacity="0.06">
-    <line x1="700" y1="70" x2="1150" y2="70"/>
-    <line x1="700" y1="120" x2="1150" y2="120"/>
-    <line x1="700" y1="170" x2="1150" y2="170"/>
-    <line x1="700" y1="220" x2="1150" y2="220"/>
+  <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+  <!-- trend line in the background -->
+  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 120 L1100 132 L1160 80 L1160 250 L620 250 Z" fill="url(#area)"/>
+  <path d="M620 230 L690 215 L760 190 L830 196 L900 140 L970 165 L1040 120 L1100 132 L1160 80" fill="none" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- pipeline: data, clean, analyse, automate -->
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e2e8f0" text-anchor="middle">
+    <line x1="680" y1="70" x2="1100" y2="70" stroke="#93c5fd" stroke-width="2" stroke-dasharray="6 6"/>
+    <g fill="#1e293b" stroke="#60a5fa" stroke-width="2">
+      <circle cx="680" cy="70" r="22"/>
+      <circle cx="820" cy="70" r="22"/>
+      <circle cx="960" cy="70" r="22"/>
+      <circle cx="1100" cy="70" r="22"/>
+    </g>
+    <!-- data: stacked cylinder -->
+    <g fill="none" stroke="#e2e8f0" stroke-width="2">
+      <ellipse cx="680" cy="62" rx="9" ry="4"/>
+      <path d="M671 62 V78 A9 4 0 0 0 689 78 V62"/>
+      <path d="M671 70 A9 4 0 0 0 689 70"/>
+    </g>
+    <!-- clean: check mark -->
+    <path d="M810 70 L817 77 L831 62" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- analyse: bars -->
+    <g fill="#e2e8f0">
+      <rect x="950" y="70" width="5" height="10"/>
+      <rect x="958" y="62" width="5" height="18"/>
+      <rect x="966" y="58" width="5" height="22"/>
+    </g>
+    <!-- automate: lightning -->
+    <path d="M1103 57 L1093 72 H1100 L1097 84 L1108 67 H1101 Z" fill="#e2e8f0"/>
+    <text x="680" y="118">Data</text>
+    <text x="820" y="118">Clean</text>
+    <text x="960" y="118">Analyse</text>
+    <text x="1100" y="118">Automate</text>
   </g>
-  <path d="M700 200 L760 185 L820 160 L880 162 L940 80 L1000 140 L1060 120 L1110 150 L1150 95 L1150 220 L700 220 Z" fill="url(#area)"/>
-  <path d="M700 200 L760 185 L820 160 L880 162 L940 80 L1000 140 L1060 120 L1110 150 L1150 95" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-  <g fill="#93c5fd">
-    <circle cx="940" cy="80" r="6"/>
-    <circle cx="1150" cy="95" r="6"/>
-  </g>
-  <text x="64" y="118" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Cristina Bucicovscaia</text>
-  <text x="64" y="166" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cbd5e1">Data analysis · Python · React · Automation</text>
+  <text x="64" y="132" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff">Cristina Bucicovscaia</text>
+  <text x="64" y="180" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#93c5fd">Data Analytics &amp; Automation</text>
 </svg>

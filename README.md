@@ -1,27 +1,25 @@
-![Cristina Bucicovscaia: data analysis, Python, React, automation](assets/banner.svg)
+![Cristina Bucicovscaia: Data Analytics and Automation](assets/banner.svg)
 
 ## Hi, I'm Cristina 👋
 
-I build web applications that turn raw business data into clear, trustworthy reports: importing and cleaning messy CSV files, analysing them, and automating how the results reach people.
+I work in **data analytics and automation**: taking raw business data, making it clean and trustworthy, turning it into clear insights and reports, and automating how those results reach the people who need them.
 
-## Featured project: FlowForge Analytics
+## What I do
 
-**[FlowForge Analytics](https://github.com/Bucicovscaia-AI/flowforge-analytics)** is a full-stack app for importing CSV business data, checking and cleaning it, analysing it and producing reports.
-
-- Data quality checks with a documented quality score, and cleaning applied to a working copy so the original upload is kept
-- Business metrics, period comparisons, charts and rule-based insights
-- Reports in HTML, PDF, CSV and JSON, with delivery through a Make.com webhook
-
-**[Try the live app](https://flowforge-analytics.onrender.com)** (free hosting, so the first load can take up to a minute) · **[View the code](https://github.com/Bucicovscaia-AI/flowforge-analytics)**
-
-![FlowForge Analytics dashboard](https://raw.githubusercontent.com/Bucicovscaia-AI/flowforge-analytics/main/screenshots/06-dashboard.png)
+- **Data preparation:** importing messy files, finding duplicates, missing values and inconsistent formats, and cleaning them without losing the original
+- **Analysis and reporting:** business metrics, period comparisons, charts, dashboards and reports in formats people actually use
+- **Automation:** connecting data to workflows with webhooks and tools such as Make.com, so reports and summaries are delivered without manual steps
 
 ## Tools I work with
 
 | Area | Tools |
 | --- | --- |
-| Data | Python, pandas, NumPy, SQLite |
-| Backend | FastAPI, Pydantic, ReportLab |
-| Frontend | React, TypeScript, Vite, Tailwind CSS, Recharts |
-| Automation | Make.com, webhooks |
-| Quality and delivery | pytest, Vitest, Ruff, ESLint, Docker, GitHub Actions, Render |
+| Data analysis | Python, pandas, NumPy, SQLite |
+| Visualisation | Recharts, dashboards, HTML and PDF reports |
+| Automation | Make.com, webhooks, REST APIs |
+| Web apps | FastAPI, React, TypeScript, Tailwind CSS |
+| Quality and delivery | pytest, Docker, GitHub Actions, Render |
+
+## Projects
+
+**[FlowForge Analytics](https://github.com/Bucicovscaia-AI/flowforge-analytics)**: a web app that imports CSV business data, scores and cleans its quality, analyses it and produces reports, with automated delivery through Make.com. [Live demo](https://flowforge-analytics.onrender.com)
